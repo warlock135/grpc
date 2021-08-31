@@ -28,7 +28,7 @@ git submodule | awk '{ print $2 " " $1 }' | sort > "$submodules"
 cat << EOF | sort > "$want_submodules"
 third_party/abseil-cpp 997aaf3a28308eba1b9156aa35ab7bca9688e9f6
 third_party/benchmark 73d4d5e8d6d449fc8663765a42aa8aeeee844489
-third_party/bloaty 73594cde8c9a52a102c4341c244c833aa61b9c06
+third_party/bloaty a03e47a05db1815f1c98a22523d4373bbcb1d08e
 third_party/boringssl-with-bazel bcc01b6c66b1c6fa2816b108e50a544b757fbd7b
 third_party/cares/cares e982924acee7f7313b4baa4ee5ec000c5e373c30
 third_party/envoy-api df3b1ab2773147f292c4f175f790c35448328161
